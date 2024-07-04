@@ -1,0 +1,250 @@
+/* General Style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    overflow-x: hidden;
+    z-index: -999;
+    position: relative;
+}
+
+
+
+
+/* Navbar Style */
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+#header .container-fluid {
+    margin: 0 10%;
+}
+
+#header .navbar-brand {
+    font-size: 30px;
+}
+
+#header .nav-item {
+    margin: 0 5px;
+    padding: 0 5px;
+    transition: all .3s ease;
+    border-radius: 10px;
+}
+
+#header .nav-item:hover {
+    background-color: #ffc107;
+    transition: all .3s ease;
+}
+
+#header .dropdown-item {
+    transition: all .3s ease;
+}
+
+#header .dropdown-item:hover {
+    color: #0d6efd;
+    transition: all .3s ease;
+    text-decoration: underline;
+}
+
+#header .d-flex {
+    width: 35%;
+}
+
+#header .btn {
+    margin-left: 5px;
+}
+
+#header .btn-warning a {
+    text-decoration: none;
+    color: black;
+}
+
+#header .btn-warning {
+    transition: all .3s ease;
+    border: none;
+}
+
+#header .btn-warning:hover {
+    transition: all .3s ease;
+    background-color: greenyellow;
+}
+
+
+#notfound{
+    height: 80vh;
+    background: linear-gradient(#663300,#996600, #663300);
+    padding: 150px 0 100px 0;
+}
+#notfound .notfound-container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    padding: 2.5% 5%;
+}
+
+
+/* Item Style */
+#product {
+    background: linear-gradient(#663300,#996600, #663300);
+    padding: 150px 0 100px 0;
+}
+
+#product .product-container {
+    width: 90%;
+    margin: 0 auto;
+    height: 150vh;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    padding-bottom: 6%;
+}
+
+#product .container-fluid {
+    width: 90%;
+    height: 100%;
+    margin: 0 5%;
+    padding-top: 4%;
+}
+
+#product .infor {
+    height: 50%;
+    justify-content: space-evenly;
+}
+#product .col-md-5 {
+    height: 100%;
+    padding: 0;
+}
+#product .col-md-5 .slide{
+    width: 100%;
+    height: 100%;
+}
+#product .slide .carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+#product .slide .carousel-item{
+    width: 100%;
+    height: 100%;
+}
+#product .carousel-indicators button{
+    height: 10px;
+}
+#product .slide img{
+    width: 100%;
+    height: 100%;
+}
+#product .col-md-6 {
+    background-color: whitesmoke;
+    height: 100%;
+}
+#col-md-6 .product-text{
+    padding-left: 30px;
+}
+.product-text .stars{
+    margin: 50px 0;
+}
+.wishlist-button{
+    padding: 20px;
+    margin-top: 5px;
+    border: none;
+    transition: all .3s ease;
+}
+.wishlist-button:hover{
+    background-color: palevioletred;
+    transition: all .3s ease;
+}
+.extra{
+    margin-top: 75px;
+    height: 50%;
+}
+#product .extra-queue{
+    width: 100%;
+    height: 80%;
+}
+#product .queue-item{
+    height: 100%;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    border: solid black 1px;
+    margin: 0 20px;
+    padding-bottom: 20px;
+}
+#product .queue-item img{
+    width: 100%;
+    margin-bottom: 5%;
+    aspect-ratio: 4/3;
+}
+#product .queue-item a{
+    text-decoration: none;
+}
+.queue-button{
+    transition: all .3s ease;
+    border: none;
+}
+.queue-button:hover{
+    background-color: palevioletred;
+    transition: all .3s ease;
+}
+
+/* Footer Style */
+#footer {
+    padding: 30px 20px 20px 0;
+}
+
+#footer .col1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+#footer .col1 .h2 {
+    cursor: pointer;
+}
+
+#footer .container-fluid {
+    margin: 0;
+}
+
+#footer .btn {
+    margin-left: 5px;
+}
+
+#footer ul {
+    padding: 0;
+}
+
+#footer li {
+    list-style-type: none;
+    width: 40%;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#footer .ul1 li:hover {
+    background-color: #6c757d;
+    transition: all .3s ease;
+    text-decoration: underline;
+}
+
+#footer i {
+    font-size: 45px;
+    transition: all .3s ease;
+}
+
+#footer i:hover {
+    color: gold;
+    transition: all .3s ease;
+}

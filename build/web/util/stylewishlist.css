@@ -1,0 +1,192 @@
+/* General Style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    overflow-x: hidden;
+    z-index: -999;
+    position: relative;
+}
+
+
+
+
+/* Navbar Style */
+#header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+#header .container-fluid{
+    margin: 0 10%;
+}
+#header .navbar-brand{
+    font-size: 30px;
+}
+#header .nav-item{
+    margin: 0 5px;
+    padding: 0 5px;
+    transition: all .3s ease;
+    border-radius: 10px;
+}
+#header .nav-item:hover{
+    background-color: #ffc107;
+    transition: all .3s ease;
+}
+#header .dropdown-item{
+    transition: all .3s ease;
+}
+#header .dropdown-item:hover{
+    color: #0d6efd;
+    transition: all .3s ease;
+    text-decoration: underline;
+}
+#header .d-flex {
+    width: 35%;
+}
+#header .btn{
+    margin-left: 5px;
+}
+#header .btn-warning a{
+    text-decoration: none;
+    color: black;
+}
+#header .btn-warning{
+    transition: all .3s ease;
+    border: none;
+}
+#header .btn-warning:hover{
+    transition: all .3s ease;
+    background-color: greenyellow;
+}
+
+
+#notfound{
+    height: 80vh;
+    background: linear-gradient(#663300,#996600, #663300);
+    padding: 150px 0 100px 0;
+}
+#notfound .notfound-container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    padding: 2.5% 5%;
+}
+
+
+/* Wishlist Style */
+#wishlist{
+    background: linear-gradient(#663300,#996600, #663300);
+    padding: 150px 0 100px 0;
+}
+#wishlist .wishlist-container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    padding: 2.5% 5%;
+}
+tbody tr{
+    font-size: larger;
+    height: 100px;
+    vertical-align: middle;
+}
+td{
+    width: 14%;
+}
+.image-box{
+    width: 30%;
+    padding: 0!important;
+}
+.image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+.input-box input{
+    border: none;
+    background-color: transparent;
+    width: 10%;
+    padding: 0!important;
+}
+.coupon form{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5%;
+}
+.coupon #coupon-input{
+    width: 70%;
+    font-size: larger;
+    padding-left: 5px;
+}
+.col2{
+    width: 50%;
+}
+.wishlist-total{
+    margin-top: 50px;
+}
+.wishlist-total .row{
+    justify-content: space-between;
+}
+.order-button{
+    margin: 30px auto 0 auto;
+    font-size: 150%;
+}
+.left{
+    text-align: left;
+}
+
+
+
+/* Footer Style */
+#footer{
+    padding: 30px 20px 20px 0;
+}
+#footer .col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+#footer .col1 .h2{
+    cursor: pointer;
+}
+#footer .container-fluid{
+    margin: 0;
+}
+#footer .btn{
+    margin-left: 5px;
+}
+#footer ul{
+    padding: 0;
+}
+#footer li{
+    list-style-type: none;
+    width: 40%;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 10px;
+    padding: 5px;
+}
+#footer .ul1 li:hover{
+    background-color: #6c757d;
+    transition: all .3s ease;
+    text-decoration: underline;
+}
+#footer i{
+    font-size: 45px;
+    transition: all .3s ease;
+}
+#footer i:hover{
+    color: gold;
+    transition: all .3s ease;
+}
